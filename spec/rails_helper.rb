@@ -2,7 +2,7 @@
 require 'factory_bot'
 require 'simplecov'
 SimpleCov.start 'rails'
-
+require 'support/factory_bot'
 
 RSpec.configure do |config|
   # other stuff inside
